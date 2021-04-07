@@ -37,3 +37,15 @@ let app4 = new Vue({
         ]
     }
 });
+
+let app5 = new Vue({
+    el: "#app5",
+    data: {
+        msg: "Hakim Ariff"
+    },
+    method: {
+        reverseMsg: function (){
+            this.msg = this.msg.split("").reverse().join("");
+        }
+    }
+});
