@@ -8,7 +8,7 @@ function LoadUser(){
 
     fetch(url)
     .then((response) => response.json())
-    .then(data =>{
+    .then(data => {
         let fn = document.getElementById("firstName");
         let ln = document.getElementById("lastName");
         let phone = document.getElementById("phone");
